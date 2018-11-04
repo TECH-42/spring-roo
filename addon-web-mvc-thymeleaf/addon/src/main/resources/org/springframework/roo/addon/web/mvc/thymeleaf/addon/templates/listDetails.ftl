@@ -6,6 +6,7 @@
             <#list detailsLevel as detail>
               <#if firstDetail == true>
                 <li class="active">
+                <#assign firstDetail=false>
               <#else>
                 <li>
               </#if>
